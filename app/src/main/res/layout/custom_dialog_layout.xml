@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6102FB"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/cloud"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:textStyle="bold"
+            android:textSize="34sp"
+            android:textColor="#6102FB"
+            android:gravity="center"
+            android:layout_margin="11dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order Is successfully Placed"
+            android:textSize="16sp"
+            android:textColor="#6102FB"
+            android:layout_margin="11dp"
+            android:gravity="center">
+
+        </TextView>
+        <Button
+            android:id="@+id/btnokay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OKAY"
+            android:backgroundTint="#6102FB"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
